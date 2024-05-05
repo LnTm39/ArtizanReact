@@ -1,0 +1,34 @@
+.artisan-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.artisan-desc {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.artisan-pp {
+  width: 500px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.product-item {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #46d879;
+  border-radius: 10px;
+  max-width: 25%;
+  height: 400px;
+  padding: 10px;
+}
+
+.product-pict {
+  height: 200px;
+  width: 200px;
+}

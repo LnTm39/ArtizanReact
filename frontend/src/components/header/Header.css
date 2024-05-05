@@ -1,0 +1,23 @@
+header.header {
+  padding: 0;
+  margin: 0;
+}
+header.header button{
+  margin-left: auto;
+}
+
+header.header nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  gap: 20px;
+}
+
+header.header nav a {
+    color: #46d879;
+    padding: 30px 15px;
+}
+
+header.header nav a:hover {
+    color: #79cf87;
+}

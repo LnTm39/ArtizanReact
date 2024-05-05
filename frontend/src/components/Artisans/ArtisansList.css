@@ -1,0 +1,42 @@
+/* 
+.card {
+  border-radius: 8px;
+  box-shadow: rgba(22, 196, 92, 0.2) 0px 7px 29px 0px;
+  width: 270px;
+  height: 450px;
+  padding: 30px 15px 30px 15px;
+}
+
+.card-author {
+  display: flex;
+  align-items: center;
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.list-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profile-picture {
+  width: 50px;
+  height: 50px;
+  padding-left: 30px;
+  border-radius: 100%;
+}
+
+.author-name {
+  display: flex;
+  padding-left: 10px;
+}
+*/
