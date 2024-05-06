@@ -17,8 +17,8 @@ function ArtisanForm () {
   }
 
   const [formData, setFormData] = useState({
-    name: 'Ewen le Développeur',
-    description: 'Dev en alternance',
+    name: 'Marc Lechardonnier',
+    description: 'Forgeur depuis plus de 20 ans',
     profilePicture: '',
     slug: '',
     produits: [],
