@@ -15,9 +15,9 @@ function RegisterForm () {
   const { error, register, loading, state: { user, jwt } } = useAuth()
 
   const [formData, setFormData] = useState({
-    email: 'ewenheas13@gmail.com',
-    username: 'Ewen',
-    password: 'COUCOU'
+    email: 'marc.lechardonnier@hotmail.com',
+    username: 'mlchardonnier',
+    password: 'mlechardonnier44'
   })
 
   const [errors, setErrors] = useState({
