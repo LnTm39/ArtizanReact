@@ -70,7 +70,7 @@ function ProductForm ({ onCancel, artisanId }) {
       if (response.status === 200) {
         toast.success('Produit créé avec succès')
       } else {
-        toast.error(`Failed to create product: ${response.statusText}`)
+        toast.error(`Une erreur s'est produite lors de la création de votre produit : ${response.statusText}`)
       }
     } catch (error) {
       // Handle error

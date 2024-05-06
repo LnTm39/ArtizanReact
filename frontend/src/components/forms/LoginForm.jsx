@@ -33,7 +33,7 @@ function LoginForm () {
   return (
     <>
       <form className='flex flex-col items-center justify-center w-1/2 gap-2'>
-        <h2>Se connecter</h2>
+        <h2>Se connecter !</h2>
         <Input
           name='identifier'
           type='email'
