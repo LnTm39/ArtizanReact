@@ -12,7 +12,7 @@ function ArtisanHeader ({ attributes }) {
           <h1>{attributes.name}</h1>
         </CardHeader>
         <CardBody className='w-80'>
-          <img src={picturl} className='artisan-pp' />
+          <img src={picturl} className='artisan-produit' />
         </CardBody>
         <CardFooter className='flex text-center'>
           <p>{attributes.description}</p>

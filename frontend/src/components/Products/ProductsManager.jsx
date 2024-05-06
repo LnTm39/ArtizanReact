@@ -46,7 +46,7 @@ function ProductsManager ({ artisanId, products }) {
           </div>
           )
         : (
-          <p className='text-center text-gray-600'>Aucun produit trouvé.</p>
+          <p className='text-center text-gray-600'>Aucun produit n'a été trouvé.</p>
           )}
     </div>
   )

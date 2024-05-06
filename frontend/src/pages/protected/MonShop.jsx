@@ -34,11 +34,11 @@ function MonShop () {
       {
         artisan && products && userId
           ? (<ArtisanModifier userId={userId} artisan={artisan} products={products} />)
-          : (<p className='text-center text-gray-600'>Aucun artisan trouvé.</p>)
+          : (<p className='text-center text-gray-600'>Aucun artisan n'a été trouvé.</p>)
       }
       {
         productsError
-          ? (<p className='text-center text-gray-600'>Aucun produit trouvé.</p>)
+          ? (<p className='text-center text-gray-600'>Aucun produit n'a été trouvé.</p>)
           : (<ProductsManager products={products} artisanId={artisanId} />)
       }
     </>

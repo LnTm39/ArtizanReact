@@ -23,7 +23,7 @@ function Artisan () {
               ? (
                 <ProductsList products={products} />
                 )
-              : <p>Aucun produit trouvé</p>
+              : <p>Aucun produit n'a été trouvé</p>
         }
     </>
   )

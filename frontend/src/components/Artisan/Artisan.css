@@ -12,13 +12,13 @@
   flex-wrap: wrap;
 }
 
-.artisan-pp {
-  width: 500px;
+.artisan-produit {
   height: auto;
+  width: 500px;
   border-radius: 10px;
 }
 
-.product-item {
+.produit {
   display: flex;
   flex-direction: column;
   border: 1px solid #46d879;
@@ -28,7 +28,7 @@
   padding: 10px;
 }
 
-.product-pict {
+.produit-image {
   height: 200px;
   width: 200px;
 }

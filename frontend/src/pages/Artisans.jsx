@@ -3,7 +3,7 @@ import { useFetch } from '../hooks/Api'
 
 function Artisans () {
   const { response, error, isLoading } = useFetch('/artisans?populate=*')
-  if (isLoading) return <h2>Loading ...</h2>
+  if (isLoading) return <h2>Chargement ...</h2>
   if (error) return <pre>{JSON.stringify(error, null, 2)}</pre>
 
   return (

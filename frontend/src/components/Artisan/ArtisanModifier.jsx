@@ -84,7 +84,7 @@ function ArtisanModifier ({ artisan, products, userId }) {
               )}
         </CardHeader>
         <CardBody className='w-80'>
-          <img src={pictUrl} alt='Profile' className='artisan-pp' />
+          <img src={pictUrl} alt='Profile' className='artisan-produit' />
         </CardBody>
         <CardFooter className='flex flex-row justify-center text-center'>
           {

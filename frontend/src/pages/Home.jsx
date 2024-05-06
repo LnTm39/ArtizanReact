@@ -13,7 +13,7 @@ function Home () {
         ? (
           <ProductsList products={response} isHome />
           )
-        : <p>Aucun produit trouvé</p>
+        : <p>Aucun produit n'a été trouvé</p>
       }
     </div>
   )

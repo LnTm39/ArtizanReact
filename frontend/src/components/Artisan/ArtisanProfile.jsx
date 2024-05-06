@@ -20,7 +20,7 @@ function ArtisanProfile ({ artisan }) {
         <h1>{artisan.name}</h1>
       </CardHeader>
       <CardBody className='w-80'>
-        <img src={picturl} className='artisan-pp rounded-md' />
+        <img src={picturl} className='artisan-produit rounded-md' />
       </CardBody>
       <CardFooter className='flex flex-col text-center gap-4 p-8'>
         <p>{artisan.description}</p>

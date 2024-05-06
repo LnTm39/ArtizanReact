@@ -41,7 +41,7 @@ function Dashboard () {
             {
               showArtisanForm
                 ? <ArtisanForm />
-                : <Button onClick={createArtisan}>Devenir Artisan</Button>
+                : <Button onClick={createArtisan}>Devient Artisan !</Button>
             }
           </div>
           )}
