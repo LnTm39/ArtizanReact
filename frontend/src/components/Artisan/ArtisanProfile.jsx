@@ -24,9 +24,9 @@ function ArtisanProfile ({ artisan }) {
       </CardBody>
       <CardFooter className='flex flex-col text-center gap-4 p-8'>
         <p>{artisan.description}</p>
-        <Button onClick={shoplink}>Voir mon shop</Button>
+        <Button onClick={shoplink}>Voir ma boutique</Button>
         <Button onClick={modifyShopLink}>
-          Modifier mon Shop
+          Modifier ma boutique
           <PencilSquareIcon className='w-5' />
         </Button>
       </CardFooter>
